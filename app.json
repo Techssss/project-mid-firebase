@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Quản lý người dùng",
+    "slug": "project-mid",
+    "version": "1.0.0",
+    "userInterfaceStyle": "light",
+    "ios": { "supportsTablet": true },
+    "android": { "softwareKeyboardLayoutMode": "resize" },
+    "plugins": [
+      ["expo-image-picker", {
+        "photosPermission": "Cho phép chọn ảnh đại diện từ thư viện.",
+        "cameraPermission": false,
+        "microphonePermission": false
+      }]
+    ]
+  }
+}
